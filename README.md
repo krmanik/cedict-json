@@ -18,6 +18,39 @@ with open('cedict.json', encoding='utf8') as json_file:
 cedict.json file generated using following:
 <br>https://github.com/kevb34ns/CEDICT2JSON
 
+# To get meaning of any term from cedict-json data
+1.
+```
+https://cdn.jsdelivr.net/gh/infinyte7/cedict-json/data/我.json
+```
+Fetched data
+```
+{
+    "definitions": [
+        "I",
+        "my"
+    ],
+    "pinyin": "wo3",
+    "simplified": "我",
+    "traditional": "我"
+}
+```
+2.
+```
+https://cdn.jsdelivr.net/gh/infinyte7/cedict-json/data/知道.json
+```
+Fetched data
+```
+{
+    "definitions": [
+        "to know",
+        "also pr. [zhi1 dao5]"
+    ],
+    "pinyin": "zhi1 dao4",
+    "simplified": "知道",
+    "traditional": "知道"
+}
+```
 
 # License
 <br>cedict chinese dictionary

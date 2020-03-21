@@ -53,6 +53,10 @@ Fetched data
 ```
 
 # License
-<br>cedict chinese dictionary
+# cedict chinese dictionary
 <br>Creative Commons Attribution-Share Alike 3.0 License
 <br>https://cc-cedict.org/wiki/
+
+# cedict-json
+<br>Infinyte7
+<br>MIT License

@@ -16,7 +16,7 @@ with open('cedict.json', encoding='utf8') as json_file:
 ```
  
 ### cedict.json file generated using following:
-<br>https://github.com/kevb34ns/CEDICT2JSON
+https://github.com/kevb34ns/CEDICT2JSON
 
 ## To get meaning of any term from cedict-json data
 Example 1
@@ -53,10 +53,10 @@ Fetched data
 ```
 
 ## License
-### cedict chinese dictionary
-<br>Creative Commons Attribution-Share Alike 3.0 License
+#### cedict chinese dictionary
+Creative Commons Attribution-Share Alike 3.0 License
 <br>https://cc-cedict.org/wiki/
 
-### cedict-json
-<br>Infinyte7
+#### cedict-json
+Infinyte7
 <br>MIT License

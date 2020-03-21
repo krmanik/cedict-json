@@ -2,7 +2,7 @@
 
 cedict-json individual json data of dictionary term according to simplified terms.
 
-generated using following script：
+### generated using following script：
 ```
 with open('cedict.json', encoding='utf8') as json_file:
     data = json.load(json_file)
@@ -15,11 +15,11 @@ with open('cedict.json', encoding='utf8') as json_file:
             json.dump(data[x],f,indent=4,sort_keys=True, ensure_ascii=False)
 ```
  
-cedict.json file generated using following:
+### cedict.json file generated using following:
 <br>https://github.com/kevb34ns/CEDICT2JSON
 
-# To get meaning of any term from cedict-json data
-1.
+## To get meaning of any term from cedict-json data
+Example 1
 ```
 https://cdn.jsdelivr.net/gh/infinyte7/cedict-json/data/我.json
 ```
@@ -35,7 +35,7 @@ Fetched data
     "traditional": "我"
 }
 ```
-2.
+Example 2
 ```
 https://cdn.jsdelivr.net/gh/infinyte7/cedict-json/data/知道.json
 ```
@@ -52,11 +52,11 @@ Fetched data
 }
 ```
 
-# License
-# cedict chinese dictionary
+## License
+### cedict chinese dictionary
 <br>Creative Commons Attribution-Share Alike 3.0 License
 <br>https://cc-cedict.org/wiki/
 
-# cedict-json
+### cedict-json
 <br>Infinyte7
 <br>MIT License

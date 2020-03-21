@@ -6,7 +6,7 @@ cedict-json individual json data of dictionary term according to simplified term
 ```
 with open('cedict.json', encoding='utf8') as json_file:
     data = json.load(json_file)
-    for x in range(50000, 114852):
+    for x in range(0, 114852):
         print(data[x]['simplified'])
         name = data[x]['simplified']
         name += '.json'

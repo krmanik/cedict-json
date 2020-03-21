@@ -16,10 +16,10 @@ with open('cedict.json', encoding='utf8') as json_file:
 ```
  
 cedict.json file generated using following:
-https://github.com/kevb34ns/CEDICT2JSON
+<br>https://github.com/kevb34ns/CEDICT2JSON
 
 
 # License
-cedict chinese dictionary
-Creative Commons Attribution-Share Alike 3.0 License
-https://cc-cedict.org/wiki/
+<br>cedict chinese dictionary
+<br>Creative Commons Attribution-Share Alike 3.0 License
+<br>https://cc-cedict.org/wiki/

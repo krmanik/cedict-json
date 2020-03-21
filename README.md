@@ -21,8 +21,11 @@ https://github.com/kevb34ns/CEDICT2JSON
 ## To get meaning of any term from cedict-json data
 Example 1
 ```
-https://cdn.jsdelivr.net/gh/infinyte7/cedict-json/data/我.json
+https://cdn.jsdelivr.net/gh/<your-username>/cedict-json/data/我.json
 ```
+Fork this and then, <br>
+your-username is your github username
+
 Fetched data
 ```
 {

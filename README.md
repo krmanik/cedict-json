@@ -57,9 +57,9 @@ Fetched data
 
 ## License
 #### cedict chinese dictionary
-Creative Commons Attribution-Share Alike 3.0 License
+Creative Commons Attribution-Share Alike 4.0 License
 <br>https://cc-cedict.org/wiki/
 
 #### cedict-json
 Infinyte7
-<br>MIT License
+<br>Creative Commons Attribution-Share Alike 4.0 License

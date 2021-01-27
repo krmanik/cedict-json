@@ -2,13 +2,13 @@
 
 cedict-json individual json data of dictionary term according to simplified terms.
 
-# Quick Start
+## Quick Start
 1. Fork this repository
 2. Get meaning using cdn for v2 data
 ```
 https://cdn.jsdelivr.net/gh/<your-username>/cedict-json/v2/我.json
 ```
-Note: ```<your-username> is your GitHub username```
+Note: ```<your-username>``` is your GitHub username
 
 3. The v2 data
 ```json
@@ -23,8 +23,8 @@ Note: ```<your-username> is your GitHub username```
     }
 }
 ```
-4. Multiple meanings are separated by semi-color ```;```
-e.g. three meaning for ```我```
+4. Multiple meanings are separated by semi-color ```;```.
+For e.g. three meaning for ```我```
 ```json
     "definitions": {
         "wo3": "I; me; my; "
@@ -57,8 +57,8 @@ For e.g. ```的``` have more than one pinyin and meaning. But in version 1 there
     }
 }
 ```
-```
-```
+<hr>
+
 # Version 1 
 ### Generated using following script：
 ```python

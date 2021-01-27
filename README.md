@@ -34,10 +34,10 @@ For e.g. three meaning for ```我```
 # Version 2
 ## Generated using [toJson.py](toJson.py) script
 
-### Difference between version 1 (v1) and version 2 (v2)
+### Difference between Version 1 (v1) and Version 2 (v2) data
 
 Some words (approx. 3000) have same character and different pinyin and meaning. So using [toJson.py](toJson.py) words merged.
-For e.g. ```的``` have more than one pinyin and meaning. But in version 1 there is one pinyin. So use v2 for getting meaning data.
+For e.g. ```的``` have more than one pinyin and meaning. But in version 1 there is one pinyin. So use v2 for getting meaning data. Also the multiple meanings are separated by semi-colon ```;``` for respective pinyin.
 
 ```json
 {

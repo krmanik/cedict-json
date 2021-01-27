@@ -1,0 +1,10 @@
+{
+    "simplified": "乱码",
+    "traditional": "亂碼",
+    "pinyin": [
+        "luan4 ma3"
+    ],
+    "definitions": {
+        "luan4 ma3": "mojibake (nonsense characters displayed when software fails to render text according to its intended character encoding); "
+    }
+}

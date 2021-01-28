@@ -113,6 +113,10 @@ Fetched data
 }
 ```
 
+## Apps and Websites using cedict-json
+[Simple 中文 Vocabulary Generator](https://simplezhongwen.blogspot.com/p/chinese-vocabulary-generator.html)
+
+
 ## License
 #### cedict chinese dictionary
 Creative Commons Attribution-Share Alike 4.0 License

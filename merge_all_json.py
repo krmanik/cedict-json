@@ -21,3 +21,5 @@ def merge():
         print(",")
     out.write("}")
     print("}")
+
+# merge()

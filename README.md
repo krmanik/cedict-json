@@ -125,3 +125,10 @@ Creative Commons Attribution-Share Alike 4.0 License
 #### cedict-json
 Mani (Infinyte7)
 <br>Creative Commons Attribution-Share Alike 4.0 License
+
+#### Python packages used
+```
+hanziconv
+googletrans
+colorize_pinyin
+```

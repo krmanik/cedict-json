@@ -78,7 +78,8 @@ def copy_from_v2_to_HSK(fname):
                         pinyin.append(colp)
 
                         # Create meaning with matched pinyin
-                        mean_data += "<div class='pinyin'>" + colp + "</div>" + html_mean
+                        # mean_data += "<div class='pinyin'>" + colp + "</div>" + html_mean
+                        mean_data += html_mean
 
                         # print(definitions[d])
 
@@ -103,7 +104,7 @@ def copy_from_v2_to_HSK(fname):
                 # tr = translator.translate(simplified, src='zh-cn', dest="en")
                 # mean_data = tr.text 
 
-                with open("HSK List/old/HSK 7-9.tsv", "r", encoding="utf-8") as f:
+                with open("HSK List/old/" + fname + ".tsv", "r", encoding="utf-8") as f:
                     lines =  f.readlines()
                     for line in lines:
                         split = line.split("\t")
@@ -123,7 +124,7 @@ def copy_from_v2_to_HSK(fname):
 
                 html_mean = "<div class='meaning'><ul><li>" + mean_data + "</li></ul></div>"
 
-                html_mean = "<div class='pinyin'>" + colp + "</div>" + html_mean
+                #html_mean = "<div class='pinyin'>" + colp + "</div>" + html_mean
 
                 audio = "[sound:cmn-" + simplified + ".mp3]"
 
@@ -153,12 +154,12 @@ def not_in_v2():
             if not os.path.exists(fname):
                 out.write(line)
             
-not_in_v2()
+# not_in_v2()
 
 # first("hsk7-9")
 
 # Change HSK 1..7-9
-# copy_from_v2_to_HSK("HSK 7-9")
+copy_from_v2_to_HSK("HSK 7-9")
 
 # a = call(["node", "index.js", '"yi1 hui4 r5"'])
 # a  = os.popen('node index.js "yi1 hui4 r5"').readlines()
